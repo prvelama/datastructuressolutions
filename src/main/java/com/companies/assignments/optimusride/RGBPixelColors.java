@@ -1,4 +1,4 @@
-package com.companies.assignments.optimusride;
+package main.java.com.companies.assignments.optimusride;
 
 import java.util.ArrayList;
 import java.util.Arrays;

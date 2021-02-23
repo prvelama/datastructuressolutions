@@ -1,4 +1,4 @@
-package com.datastructures.solutions;
+package main.java.com.datastructures.solutions;
 
 public class DFSInOrderTraversal {
 

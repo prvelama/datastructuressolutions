@@ -1,4 +1,4 @@
-package com.datastructures.solutions;
+package main.java.com.datastructures.solutions;
 
 class Node{
     int val;
