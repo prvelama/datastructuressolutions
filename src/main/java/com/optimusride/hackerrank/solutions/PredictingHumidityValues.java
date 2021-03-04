@@ -1,4 +1,4 @@
-package com.optimusride.hackerrank.solutions;
+package main.java.com.optimusride.hackerrank.solutions;
 
 public class PredictingHumidityValues {
 

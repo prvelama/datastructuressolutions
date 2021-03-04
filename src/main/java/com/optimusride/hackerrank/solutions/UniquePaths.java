@@ -1,4 +1,4 @@
-package com.optimusride.hackerrank.solutions;
+package main.java.com.optimusride.hackerrank.solutions;
 /*
 Given a warehouse map, determine the number of distinct paths
 from warehouse[0][0] to warehouse[n-1][m-1]

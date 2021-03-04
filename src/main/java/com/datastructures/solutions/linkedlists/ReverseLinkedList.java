@@ -1,4 +1,4 @@
-package com.datastructures.solutions.linkedlists;
+package main.java.com.datastructures.solutions.linkedlists;
 
 class Node{
     int val;

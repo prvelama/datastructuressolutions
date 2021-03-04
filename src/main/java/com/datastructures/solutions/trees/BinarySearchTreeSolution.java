@@ -1,4 +1,4 @@
-package com.datastructures.solutions.trees;
+package main.java.com.datastructures.solutions.trees;
 
 public class BinarySearchTreeSolution {
 

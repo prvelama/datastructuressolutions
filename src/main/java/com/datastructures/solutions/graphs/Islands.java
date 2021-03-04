@@ -1,4 +1,4 @@
-package com.datastructures.solutions.graphs;
+package main.java.com.datastructures.solutions.graphs;
 
 //Find the number of islands
 public class Islands {
