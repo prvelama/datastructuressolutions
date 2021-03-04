@@ -1,4 +1,4 @@
-package com.datastructures.solutions;
+package com.datastructures.solutions.trees;
 
 public class BinarySearchTreeSolution {
 

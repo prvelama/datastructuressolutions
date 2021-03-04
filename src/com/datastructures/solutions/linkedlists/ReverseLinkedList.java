@@ -1,4 +1,4 @@
-package com.datastructures.solutions;
+package com.datastructures.solutions.linkedlists;
 
 class Node{
     int val;
@@ -11,6 +11,7 @@ class Node{
         this.next = next;
     }
 }
+//Reverse Linked List
 public class ReverseLinkedList {
 
     public Node reverse(Node head)
