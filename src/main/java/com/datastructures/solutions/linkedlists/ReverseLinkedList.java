@@ -28,7 +28,7 @@ public class ReverseLinkedList {
         }
         return prev;
     }
-    public void printLinkedList(Node head)
+    public static void printLinkedList(Node head)
     {
         Node current = head;
         while(current != null)
@@ -38,6 +38,19 @@ public class ReverseLinkedList {
         }
         System.out.println(" ");
     }
+
+    public static int findLinkedListLength(Node head)
+    {
+        Node current = head;
+        int length = 0;
+        while(current != null)
+        {
+            length++;
+            current = current.next;
+        }
+        return length;
+    }
+
     public static void main(String[] args)
     {
         ReverseLinkedList rll = new ReverseLinkedList();
@@ -50,7 +63,10 @@ public class ReverseLinkedList {
         n2.next = n3;
         n3.next = n4;
         n4.next = null;
-        rll.printLinkedList(n1); //1 --> 2 --> 3 --> 4 -->
-        rll.printLinkedList(rll.reverse(n1)); // 4 --> 3 --> 2 --> 1 -->
+
+        System.out.println("Length of the list is "+ ReverseLinkedList.findLinkedListLength(n1));
+        ReverseLinkedList.printLinkedList(n1); //1 --> 2 --> 3 --> 4 -->
+        ReverseLinkedList.printLinkedList(rll.reverse(n1)); // 4 --> 3 --> 2 --> 1 -->
+
     }
 }
